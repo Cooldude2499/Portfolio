@@ -1,13 +1,14 @@
 {
-  "name": "server",
+  "name": "Portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "Personal Portfolio",
   "main": "app.js",
   "scripts": {
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Nick Gaur",
   "license": "ISC",
   "dependencies": {
     "@sendgrid/mail": "^7.7.0",
