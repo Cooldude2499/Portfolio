@@ -41,6 +41,7 @@ app.post('/', async (req, res) => {
         Subject: ${subject}<br>
         Mobile: ${areaCode} - ${mobile}
         </strong>
+        <br>
         <b>Message:</b> ${message}`,
     };
     console.log(msg)
