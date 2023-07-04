@@ -20,7 +20,7 @@ app.get('/download', (req, res) => {
 })
 
 app.post('/', async (req, res) => {
-    console.log(req.body)
+    // console.log(req.body)
     const { name, email, subject, message, areaCode, mobile } = req.body;
     const msg = {
         to: process.env.EMAIL,
@@ -34,7 +34,7 @@ app.post('/', async (req, res) => {
         </strong>
         <b>Message:</b> ${message}`,
     };
-    console.log(msg)
+    // console.log(msg)
     sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
     //ES6
