@@ -16,7 +16,7 @@ app.get('/data', (req, res) => {
 })
 
 app.get('/download', (req, res) => {
-    res.download(__dirname + "/Data/Updated_Experienced.pdf")
+    res.download(__dirname + "/Data/Resume_Nikhil_Gaur.pdf")
 })
 
 app.post('/', async (req, res) => {
