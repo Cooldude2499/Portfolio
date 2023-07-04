@@ -58,7 +58,7 @@ app.post('/', async (req, res) => {
     //         }
     //     }
     // })();
-    res.statusCode(200).json({message: "Success"});
+    res.redirect("https://nickgaur.github.io/Portfolio/");
 }
 )
 PORT = process.env.PORT || 8000
